@@ -26,7 +26,5 @@ public class SpringConfig {
     @Bean
     public MemberRepository memberRepository() {
         return new JpaMemberRepository(em);
-
     }
-
 }
